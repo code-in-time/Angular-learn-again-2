@@ -6,12 +6,16 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import { AreaOuterComponent } from './area-outer/area-outer.component';
+import { InnerContainerComponent } from './area-outer/inner-container/inner-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    AreaOuterComponent,
+    InnerContainerComponent
   ],
   imports: [
     BrowserModule,

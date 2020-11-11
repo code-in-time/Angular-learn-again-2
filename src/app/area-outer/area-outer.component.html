@@ -1,0 +1,7 @@
+<p>area-outer works!</p>
+
+{{textToShare}}
+
+<app-inner-container (btnEventAddToCounter)="count()" [txt]="textToShare + '__' + mainCounter"></app-inner-container>
+
+<p>This is the counter: {{mainCounter}}</p>
